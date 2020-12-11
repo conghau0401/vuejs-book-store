@@ -1,6 +1,15 @@
 # vue-review
 
 ## Project setup
+
+```
+nodenv versions: v12.18.4
+```
+
+```
+nodenv versions: 6.14.6
+```
+
 ```
 npm install
 ```
