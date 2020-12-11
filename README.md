@@ -7,7 +7,7 @@ nodenv versions: v12.18.4
 ```
 
 ```
-nodenv versions: 6.14.6
+npm versions: 6.14.6
 ```
 
 ```
