@@ -16,3 +16,19 @@
     }
   };
 </script>
+
+<style lang="scss">
+  @media only screen and (max-width: 767px) {
+    .inner {
+      width: 94%;
+    }
+    .box-product {
+      .ar-product {
+        width: 100%;
+        .img-product {
+          height: auto;
+        }
+      }
+    }
+  }
+</style>

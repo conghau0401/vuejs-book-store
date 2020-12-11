@@ -73,4 +73,12 @@
       }
     }
   }
+
+  @media only screen and (max-width: 767px) {
+    #product-detail {
+      .col-product {
+        width: 80%;
+      }
+    }
+  }
 </style>

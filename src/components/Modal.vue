@@ -118,6 +118,8 @@
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.5);
   }
+
+
   .fade-enter-active,
   .fade-leave-active {
     transition: opacity 0.5s;
@@ -126,5 +128,43 @@
   .fade-enter,
   .fade-leave-to {
     opacity: 0;
+  }
+
+  @media only screen and (max-width: 767px) {
+    #modal .product-detail {
+      width: 80%;
+      display: block;
+      overflow-y: scroll;
+      height: auto;
+      padding: 20px;
+      .image {
+        width: 50%;
+        margin: 0 auto;
+      }
+      .icon-close {
+        right: 0;
+        top: 0;
+      }
+      .product-info {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0;
+        h1.title {
+          font-size: 20px;
+          margin: 10px 0 5px;
+        }
+        dl {
+          margin: 10px 0;
+          font-size: 16px;
+          dt {
+            width: 35%;
+          }
+          dd {
+            width: 65%;
+            padding-left: 10px;
+          }
+        }
+      }
+    }
   }
 </style>
